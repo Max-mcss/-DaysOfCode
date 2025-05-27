@@ -1,0 +1,134 @@
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --cor-principal: #464646;
+    --cor-botão-principal: #FFB050;
+    --cor-branco: #FFFFFF;
+    --cor-borda-botão: #ECECEC;
+    --cor-botão-azul: #4894FF;
+}
+
+
+
+
+/*Cabeçalho*/
+.Perfil {
+    display: flex;
+    margin: 4em 0 0 1em;
+}
+
+.titulo__texto {
+    margin-left: 1em;
+}
+
+.titulo {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.texto {
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.texto__hoje {
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 2em 0 0 1em;
+}
+
+/*1º Sessão do Paciênte*/
+.imagem__texto {
+    display: flex;
+    margin: -0.5em 0 0 4.5em; 
+    align-items: center; 
+}
+
+.imagem__chat {
+    margin-left: 10em;
+}
+
+.imagem__câmera-mapa {
+    margin: 0 0.5em 0 0;
+}
+
+.titulo__paciente {
+    margin: -1em 0 0 0.5em;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.texto__paciênte {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    color:var(--cor-principal);
+}
+
+.seção {
+    display: flex;
+    align-items: center;
+    gap: 1px;  
+    margin: 2em 0 0 2em;
+    
+}
+
+.linha__horizontal {
+    border: none;                
+    height: 2px;                 
+    background-color: #e0e0e0;   
+    width: 85%;                 
+    margin: 2em auto;            
+    
+}
+
+/* 1º sessão dos primeiros botões*/
+.horário__consulta {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--cor-principal);
+    margin: 0 0 0 2.8em;
+}
+
+.botão__cor {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: var(--cor-botão-principal);
+    padding: 1em 1em;
+    color: var(--cor-branco);
+}
+
+.botão__transparente {
+    text-decoration: none;
+    border: 1px solid var(--cor-borda-botão);
+    border-radius: 8px;
+    background-color: transparent solid;
+    padding: 1em 1em;
+    color: var(--cor-principal);
+
+}
+
+.Botões {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5em;
+}
+
+.botão__azul {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: var(--cor-botão-azul);
+    padding: 1em 7.5em;
+    color: var(--cor-branco);
+}
+
+
